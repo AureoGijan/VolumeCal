@@ -44,8 +44,7 @@ double pulpwood::calculateVol() {
 }
 
 double pulpwood::calculatePrice() {
-    totalPrice = totalVol * unitPrice;
-    return totalPrice;   
+    return totalPrice = totalVol * unitPrice;  
 }
 
 void pulpwood::printTable() const {
