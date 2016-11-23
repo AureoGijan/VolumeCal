@@ -18,6 +18,8 @@ protected:
         double finalVol;
     };
     double unitPrice;
+    double totalVol;
+    double totalPrice; 
     
     
 };

@@ -1,20 +1,18 @@
-#ifndef PULPWOOD_H
-#define PULPWOOD_H
+#ifndef EXPO_H
+#define EXPO_H
 #include "cylinder.h"
 
-class pulpwood: public cylinder {
+class expo: public cylinder {
 public:
     void setPrice(double);
     void setFrequency();
     double calculateVol();
     double calculatePrice();
     void printTable() const; //cannot be used with GUI later
-    pulpwood();
-    ~pulpwood();
+    expo();
+    ~expo();
 private:
-    volume timber[8];
-};
+    volume timber[10];
+}; 
 
-
-#endif /* PULPWOOD_H */
-
+#endif /* EXPO_H */
